@@ -15,6 +15,8 @@ export class Omnivoro extends Mamifero {
         return this._typeOmnivoro;
     }
     public toEat(): void {
-        console.log("EL Herbivoro esta Comiendo De TODO")        
+        console.log("----------------------------------")
+        console.log("EL Omnivoro esta Comiendo De TODO")  
+        console.log("----------------------------------")      
     }
 }

@@ -38,12 +38,14 @@ export class Mamifero {
     changeStatus (status:boolean){
         if(this._status === true){
             this._status = false;
+            console.log("Mataste al Mamifero")
         }else{
             this._status = true;
+            console.log("Reviviste al Mamifero")
         }
     }
     toEat(){
-        console.log("El mamifero Esta Comiendo")
+        console.log("El Mamifero Esta Comiendo")
     }
 
 }

@@ -15,6 +15,8 @@ export class Carnivoro extends Mamifero {
         return this._typeCarnivoro;
     }
     public toEat(): void {
-        console.log("EL Herbivoro esta Comiendo CARNE")        
+        console.log("--------------------------------")
+        console.log("EL Carnivoro esta Comiendo CARNE")   
+        console.log("--------------------------------")     
     }
 }

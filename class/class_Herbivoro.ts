@@ -15,6 +15,8 @@ export class Herbivoro extends Mamifero {
         return this._typeHerbivoro;
     }
     public toEat(): void {
+        console.log("----------------------------------")
         console.log("EL Herbivoro esta Comiendo PLANTAS");
+        console.log("----------------------------------")
     }
 }
